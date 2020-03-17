@@ -1,0 +1,59 @@
+html,
+body {
+    margin: 0;
+    Padding: 15px;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    font-size: 275%
+}
+
+img{
+    width: 700px;
+    height: auto;}
+
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+nav {
+text-align: center;
+    font-family:inherit
+}
+
+ul{
+    padding: 30px;
+    display: inline;
+    font-size: 150%;
+    font-style: inherit;
+}
+
+
+section {
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+        
+}
+
+p {
+
+}
+
+footer {
+    font-family: fantasy;
+    text-align: center
+}
