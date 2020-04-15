@@ -1,0 +1,22 @@
+html,
+
+head
+
+body{
+    margin: 0;
+    padding:0;
+    background-color: #ddd;
+}
+
+#wrap{
+    width:70%;
+    margin: 0 auto;
+}
+
+header,nav,section,footer{
+    background-color: white;
+    margin: 10px 0;
+}
+nav
+section
+footer
