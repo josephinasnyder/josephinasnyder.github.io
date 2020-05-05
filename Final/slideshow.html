@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Final</title>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="slideshow.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            Who Do You've Got in Your Corner?
+        </header>
+
+        <nav>
+              <ul><a style= "text-decoration: none" href= "Seasons.html">Home</a></ul>
+            <ul><a style= "text-decoration: none" href= "fall.html"> </a></ul>
+            <ul><a style= "text-decoration: none" href= "Winter.html"> Iron Man</a></ul>
+            <ul> <a style= "text-decoration: none" href= "spring.html">Captain America</a></ul>
+            <ul><a style= "text-decoration: none" href= "summer.html">Spiderman</a></ul>
+             <ul><a style= "text-decoration: none" href= "Winter.html">Black Widow</a></ul>
+        </nav>
+
+        <section>
+            <div class="slider-wrapper theme-light">
+            <div id="slider" class="nivoSlider">
+                 <a href="https://www.marvel.com"><img src="images/endgame.jpeg" data-thumb="images/endgame.jpeg" alt="Endgame" title="Marvel"/></a>
+               <img src="images/thor1.jpeg" data-thumb="images/thor1.jpeg" alt="Thor" title="Thor"/>
+                <img src="images/blackwidow.jpeg" data-thumb="images/blackwidow.jpg" alt="Black Widow" data-transition="slideInLeft" />
+               <img src="images/captainamerica.jpeg" data-thumb="images/captainamerica.jpg" alt="Captain America" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                Here's <a href="https://www.marvel.com/characters/captain-america-steve-rogers" >a link</a> to more information about Captain America
+            </div>
+        </div>
+        </section>
+
+        <footer>
+            Footer
+        </footer>
+    </div>
+    <!--Close Wrap-->
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</body>
+
+</html>

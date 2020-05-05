@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url ('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 html,
 
+head body {
     margin: 0;
     padding: 0;
     background-color: white;
@@ -22,7 +24,7 @@ section,
 footer {
     background-color:#626EDA;
     margin: 10px 0;
-font-family: 'Anton', sans-serif;;
+font-family: 'anton', sans-serif;;
     color: white;
     text-align: center;
     font-size: 30px;
