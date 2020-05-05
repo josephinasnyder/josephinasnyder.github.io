@@ -1,0 +1,128 @@
+html,
+
+head body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header,
+{
+
+}
+
+
+section,
+
+footer {
+    background-color:
+    margin: 10px 0;
+font-family: 'Anton', sans-serif;;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 70px;
+}
+
+header {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+    color: purple
+}
+
+nav {
+    background-color:;
+    text-decoration-color: white;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    text-align-last: center;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+
+    overflow: auto;
+
+    background-color:#5C49C6 ;
+
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    color: red;
+}
+
+.topnav li {
+
+    display: inline;
+}
+
+
+.topnav a {
+
+    color: white;
+
+    text-align: center;
+
+    padding: 30px;
+
+    text-decoration: none;
+    
+    font-size: 30px;
+}
+
+section footer .sidenav {
+    height: 100%;
+    width: 160px;
+    /* Set the width of the sidebar */
+    position: fixed;
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: #111;
+    /* Black */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: red;
+}
+
+.main {
+    margin-left: 160px;
+    */ padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}

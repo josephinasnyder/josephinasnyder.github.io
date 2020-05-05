@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="slideshow.css" rel="stylesheet" type="text/css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160880454-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-160880454-1');
+</script>
+
+</head>
+<header>
+    Who's the Best?
+</header>
+
+<body>
+    <nav>
+        <div class="topnav">
+            <ul>
+
+                <li><a href="final.html">Home</a></li>
+
+                <li><a href="ironman.html">Iron Man</a></li>
+
+                <li><a href="captainamerica.html">Captain America</a></li>
+
+                <li><a href="thor.html">Thor</a></li>
+
+                <li><a href="blackwidow.html">Black Widow</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <div class="slider-wrapper theme-light">
+            <div id="slider" class="nivoSlider">
+                <a href="https://www.marvel.com"><img src="images/endgame.jpeg" data-thumb="images/endgame.jpeg" alt="Endgame" title="The Avengers" /></a>
+                <img src="images/ironman2.jpg" data-thumb="images/ironman2.jpg" alt="Iron Man" title="Iron Man" />
+                 <img src="images/captainamerica2.jpg" data-thumb="images/captainamerica2.jpg" alt="Captain America" title="Captain America" />
+                <img src="images/thor2.jpg" data-thumb="images/thor2.jpg" alt="Thor" title="Thor" />
+                 <img src="images/blackwidow2.jpg" data-thumb="images/blackwidow2.jpg" alt="Black Widow" title="Black Widow" />
+               
+               
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        It's you against the world, who do you pick to be on your side of the battle? In other words, who's the best? And will they pick you in return?
+    </footer>
+    </div>
+    <!--Close Wrap-->
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+    </script>
+</body></html>
